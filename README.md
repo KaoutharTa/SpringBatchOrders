@@ -110,22 +110,8 @@ Logging is implemented at every stage of the job to provide insights and facilit
 
 ## 5. Sample Execution Output
 
-**Reader Initialization:**
-```bash
-INFO  ma.enset.tp6springbatch.BatchConfig - Initializing FlatFileItemReader...
-```
-
-**Processor Log for Each Order:**
-```bash
-INFO  ma.enset.tp6springbatch.OrderItemProcessor - Processing order: 1 -> Discounted amount: 90.0
-INFO  ma.enset.tp6springbatch.OrderItemProcessor - Processing order: 2 -> Discounted amount: 180.0
-```
-
-**Job Completion Log:**
-```bash
-INFO  ma.enset.tp6springbatch.JobCompletionNotificationListener - !!! JOB COMPLETED! Displaying results...
-INFO  ma.enset.tp6springbatch.JobCompletionNotificationListener - Inserted order: Order{orderId=1, customerName='Kaoutar Tamouche', amount=90.0}
-```
+![FirstPic](Pictures/Picture1.png)
+![SecondPic](Pictures/Picture2.png)
 
 ## 6. Conclusion
 This Spring Batch job successfully processes and transforms order data while maintaining a robust logging mechanism for monitoring and debugging. The implementation demonstrates how to build scalable and maintainable batch processing systems using Spring Batch.
